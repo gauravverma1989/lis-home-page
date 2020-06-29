@@ -7,7 +7,7 @@
     background-color: transparent;
   }
 
-  .navbar-brand img {width:350px; height:100px; margin:20px 0px}
+  .navbar-brand img {width:250px; margin:20px 0px}
 
   .scrolling-navbar {
     transition: background .5s ease-in-out, padding .5s ease-in-out;
@@ -16,7 +16,7 @@
     background-color: #667490;
   }
 
-  .navbar-expand-lg .navbar-nav .nav-link {padding: .5rem 2rem;}
+  .navbar-expand-lg .navbar-nav .nav-link {padding: .5rem 1rem;}
 
   footer.page-footer {
     background-color: #667490;
