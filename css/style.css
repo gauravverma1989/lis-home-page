@@ -1,0 +1,204 @@
+  img {max-width:100%;}
+
+  .history a{ color:goldenrod;  }
+  h1,h2,h3,h4,h5,h6,a { color:goldenrod; }
+  /* Navigation*/
+  .navbar {
+    background-color: transparent;
+  }
+
+  .navbar-brand img {width:350px; height:100px; margin:20px 0px}
+
+  .scrolling-navbar {
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+  }
+  .top-nav-collapse {
+    background-color: #667490;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {padding: .5rem 2rem;}
+
+  footer.page-footer {
+    background-color: #667490;
+  }
+  @media only screen and (max-width: 768px) {
+    .navbar {
+      background-color: #667490;
+    }
+  }
+
+  .top-nav-collapse {
+    background-color: transparent !important;
+}
+
+  /* Necessary for full page carousel*/
+  html,
+  body,
+  .view {
+    height: 100%;
+  }
+
+  /* Carousel*/
+  .carousel,
+  .carousel-item,
+  .carousel-item.active {
+    height: 100%;
+  }
+  .carousel-inner {
+    height: 100%;
+  }
+  .carousel-item:nth-child(1) {
+    background-image: url("https://www.lis.ac.in/wp-content/uploads/2018/10/header-min.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .carousel-item:nth-child(2) {
+    background-image: url("https://www.lis.ac.in/wp-content/uploads/2018/10/header-min.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .carousel-item:nth-child(3) {
+    background-image: url("https://www.lis.ac.in/wp-content/uploads/2018/10/header-min.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .carousel-inner .carousel-caption h3 {color:white;}
+
+  /*-------------------------------- cards ---------------------------------*/
+
+  .promo-content {background: #ffffff none repeat scroll 0 0;
+    -webkit-box-shadow: 0 9px 9px 0 #c7c7c7;
+    box-shadow: 0 9px 9px 0 #c7c7c7;
+    margin-top: -130px;
+    padding-top: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.text-icon-box {
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.padding30 {
+    padding: 30px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.features-box-icon {
+    background: #d3ffea none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #31dc89;
+    height: 90px;
+    margin-bottom: 40px;
+    padding-top: 15px;
+    text-align: center;
+    width: 90px;
+}
+
+.box-icon {
+    font-size: 36px;
+    line-height: 1;
+    margin-bottom: 20px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+  /*------------------------------------------------------------------------*/
+
+  /*section */
+
+  .section-padding {
+    padding: 100px 0;
+}
+
+.text-center {text-align:center;}
+
+/*------------------------------------------------------------------------*/
+
+/* marquee */
+
+.orb {
+  /* background: #999; */
+  border-radius: 50px;
+  display: inline-block;
+  margin: 0 24.7px;
+  float: left;
+  transition: all .2s ease-out;
+}
+
+.orb:hover {
+  transform: scale(1.2);
+  opacity: .5;
+  cursor: pointer;
+}
+
+.marquee {
+  height: 200px;
+  border: 2px solid #eee;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+  /* margin: 200px auto; */
+}
+
+.marquee--inner {
+  display: block;
+  width: 200%;
+  margin: 70px 0;
+  position: absolute;
+  animation: marquee 20s linear infinite;
+  display:flex;
+  display:-webkit-flex;
+}
+
+.marquee--inner:hover {
+  animation-play-state: paused;
+}
+
+/*.half {
+  float: left;
+  width: 10%;
+}*/
+
+span {
+  float: left;
+  width: 50%;
+}
+
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
+/*------------------------------------------------------------------------*/
+
+/*-----------footer-------------------*/
+
+footer ul li a{color:goldenrod !important;}
+footer ul li {padding:10px 0px; }
+
+.footer-copyright div {color:goldenrod  !important;}
+.footer-copyright div a {color:goldenrod  !important;}
+
+.fa {
+  font-size: 1.5rem !important;
+  margin: 0px 25px;
+}
+
+/*------------------------------------------------------------------------*/
+
+/*---------------------------- logos ----------------------------------------*/
+
+.logos img{ width:200px; }
+
+/*----------------------------------------------------------------------------*/
